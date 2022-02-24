@@ -18,6 +18,9 @@ import java.math.BigInteger;
 public class demo2 {
     public static void main(String[] args) {
         System.out.println(addBinary("11", "1"));
+        System.out.println("22");
+        System.out.println("44");
+        System.out.println("44");
     }
     public static String addBinary(String a, String b) {
         int i = a.length() - 1;
@@ -51,4 +54,5 @@ public class demo2 {
         //反转字符串获得正常结果
         return builder.reverse().toString();
     }
+
 }
